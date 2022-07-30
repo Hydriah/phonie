@@ -1,0 +1,109 @@
+body{
+  background: url(image/airpod.jpeg) center;
+margin: 0;
+}
+/* 
+#phone{
+    position: relative;
+} */
+#logo{
+    position: absolute;
+    top: 5.3em;
+    right: 56.5%;
+    width: 49px;
+    height: 30px;
+    visibility:hidden;
+}
+#logo-text{
+  margin-top: 1.2em;
+  text-align: center;
+  margin-left: 4.2em;
+  visibility: hidden;
+  font-size: x-large;
+  font-weight: 800;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #eee;
+    font-size: 3em;
+    font-weight: 900;
+    
+}
+ p {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+  }
+  .form-field {
+    margin-top: 70px;
+  border: 1px solid rgb(53, 47, 74);
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  
+
+  /* background: rgb(210, 208, 210); */
+  background-color: #ffff;
+  opacity: 0.5;
+  /* background: rgb(216, 194, 204); */
+
+  }
+ 
+  form input {
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    width: 100%;
+    
+
+  }
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.317);
+  }
+  
+  label {
+    /* color: white; */
+    color: rgb(35, 30, 30);
+    
+    
+  }
+  select {
+    width: 100%;
+    height: 2rem;
+    padding-left: 2.2rem;
+    background: rgba(78, 76, 78, 0.523);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+  }
+  button {
+    justify-self: center;
+    margin:20px 25%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(5, 24, 35);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+
+  button:hover {
+    background: rgb(3, 66, 37);
+   
+    /* background: rgb(206, 92, 16); */
+   
+  }

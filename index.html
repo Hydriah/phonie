@@ -1,0 +1,45 @@
+
+<html lang="en">
+    <head>
+    
+      <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Field</title>
+    
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <!-- Form Field -->
+      <section class="form-container">
+            <h1>PHONIE</h1>
+           <h2  id="logo-text"> </h2>        
+            <p id="fill">Kindly fill out the form.</p>
+        <div class="contact-form">
+        <div class="form-field">
+            <form action="/">
+              <label for="fullname">Full Name</label> <br>
+              <input id="fullname" name="register" type="text" placeholder="Enter full name" size="30" required>           
+              <label id="label" for="phone">Phone</label> <br>
+              <input id="phone" name="register" type="tel"  placeholder="Enter phone" size="30" pattern="[0]([7-9]{1})([0,1]{1})([0,3,2,4,6]{1})\d{7}" title="Only MTN numbers is allowed" required>
+              <img id="logo" src="" >
+              <label for="Avatar">Profile image</label> <br>
+              <input id="Avatar" name="Avatar" type="file" accept="image/png, image/jpg" size="30" required> <label for="gender">Gender</label> <br>
+              <select name="register" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+              <button id="btn-now">Book Now</button>
+            </form>
+        </div>
+          </div>
+    </section>
+      
+       <!-- // ============= EEND DO NOT EDIT ============== // -->
+        <script src="index.js" ></script>
+        <!-- // ============= EEND DO NOT EDIT ============== // -->
+    </body>
+    </html>
+    
+ 
