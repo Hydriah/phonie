@@ -17,7 +17,7 @@ margin: 0;
 #logo-text{
   margin-top: 1.2em;
   text-align: center;
-  margin-left: 4.2em;
+  margin-left: 5.4em;
   visibility: hidden;
   font-size: x-large;
   font-weight: 800;
@@ -34,6 +34,7 @@ h1 {
     text-align: center;
     margin-bottom: 0;
     font-size: 1.5em;
+    color: #eee;
 }
 .contact-form {
     display: flex;
@@ -50,12 +51,9 @@ h1 {
   border-radius: 10px;
   padding: 20px;
   width: 45%;
-  
-
-  /* background: rgb(210, 208, 210); */
   background-color: #ffff;
   opacity: 0.5;
-  /* background: rgb(216, 194, 204); */
+  
 
   }
  
@@ -85,6 +83,7 @@ h1 {
     padding-left: 2.2rem;
     background: rgba(78, 76, 78, 0.523);
     outline: none;
+
     border-radius: 5px;
     color: white;
   }
@@ -102,8 +101,6 @@ h1 {
 
 
   button:hover {
-    background: rgb(3, 66, 37);
-   
-    /* background: rgb(206, 92, 16); */
+    background: rgb(3, 66, 37);    
    
   }

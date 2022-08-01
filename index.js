@@ -1,9 +1,3 @@
-
-
-
-
-
-
 document.getElementById("phone").addEventListener('keyup', telValidation); 
 
 function telValidation() {
