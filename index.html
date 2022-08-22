@@ -12,16 +12,16 @@
     <body>
        <!-- Form Field -->
       <section class="form-container">
-            <h1>PHONIE</h1>
+            <h1> PHONIE</h1>
            <h2  id="logo-text"> </h2>        
-            <p id="fill">Kindly fill out the form.</p>
+            <p id="fill">Fill the form to see your service provider.</p>
         <div class="contact-form">
         <div class="form-field">
             <form action="/">
               <label for="fullname">Full Name</label> <br>
               <input id="fullname" name="register" type="text" placeholder="Enter full name"  required>           
               <label id="label" for="phone">Phone</label> <br>
-              <input id="phone" name="register" type="tel"  placeholder="Enter phone"  pattern="[0]([7-9]{1})([0,1]{1})([0,3,2,4,6]{1})\d{7}" title="Only MTN numbers is allowed" required>
+              <input id="phone" name="register" type="tel"  placeholder="Enter phone"  pattern="[0]([7-9]{1})([0,1]{1})\d{8}" title="Numbers must be 11 digits" required>
               <img id="logo" src="" >
               <label for="Avatar">Profile image</label> <br>
               <input id="Avatar" name="Avatar" type="file" accept="image/png, image/jpg" required> <label for="gender">Gender</label> <br>
